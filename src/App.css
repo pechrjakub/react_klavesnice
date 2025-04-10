@@ -1,0 +1,43 @@
+.tlacitko{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #c5c3c3;
+}
+
+.vstup{
+  grid-area: vstup;
+  width: 500px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #c5c3c3;
+}
+
+.klavesnice{
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(6, 40px);
+  grid-template-areas: 
+    "vstup"
+    "."
+    "rada"
+    "rada2"
+    "rada3"
+    "vystup";
+}
+
+.rada{
+  grid-area: rada;
+}
+
+.rada2{
+  grid-area: rada2;
+}
+
+.rada3{
+  grid-area: rada3;
+}
+
+.vystup{
+  grid-area: vystup;
+}
